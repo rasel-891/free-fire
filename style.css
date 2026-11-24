@@ -45,3 +45,14 @@
             font-size: 20px;
             margin-top: 25px;
         }
+
+        #status {
+    color: lightgray;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
