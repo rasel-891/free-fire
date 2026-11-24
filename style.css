@@ -1,0 +1,47 @@
+ body {
+            background: #121826;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .box {
+            background: #202938;
+            padding: 30px;
+            border-radius: 20px;
+            width: 80%;
+            max-width: 350px;
+        }
+
+        h1 {
+            color: orange;
+        }
+
+        button {
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .yes {
+            background: green;
+        }
+
+        .no {
+            background: red;
+        }
+
+        #result {
+            color: orange;
+            font-size: 20px;
+            margin-top: 25px;
+        }
